@@ -16,7 +16,7 @@ class JConfig {
 	public $user = '${mysql_user}';
 	public $password = '${mysql_pass}';
 	public $db = '${mysql_db}';
-	public $dbprefix = '${db_prefix}';
+	public $dbprefix = '${db_prefix}_';
 	public $live_site = '';
 	public $secret = 'tNeSaY3hNggnF440';
 	public $gzip = '0';
