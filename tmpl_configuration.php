@@ -12,11 +12,11 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysql';
-	public $host = 'localhost';
-	public $user = '%{mysql_user}';
-	public $password = '%{mysql_pass}';
-	public $db = '%{mysql_db}';
-	public $dbprefix = '%{db_prefix}';
+	public $host = '${mysql_host}';
+	public $user = '${mysql_user}';
+	public $password = '${mysql_pass}';
+	public $db = '${mysql_db}';
+	public $dbprefix = '${db_prefix}';
 	public $live_site = '';
 	public $secret = 'tNeSaY3hNggnF440';
 	public $gzip = '0';
