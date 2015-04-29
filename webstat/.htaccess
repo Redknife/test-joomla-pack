@@ -1,7 +1,0 @@
-AuthType Basic
-AuthName "/www/optimum.s74.org/webstat"
-AuthUserFile /var/www/webmaster/data/etc/3025623.passwd
-DirectoryIndex index.html
-<Limit GET POST>
-	require valid-user
-</Limit>
